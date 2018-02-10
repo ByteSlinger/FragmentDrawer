@@ -38,8 +38,8 @@ I built and tested this on a Google Pixel XL.  I did not even try any simulators
 
 ## Code Highlights (the Secret Sauce...)
 
-* loadFragment() function in [Activity.java](/ByteSlinger/FragmentDrawer/blob/master/app/src/main/java/net/byteslinger/fragmentdrawer/Activity.java)
-* [content.xml](/ByteSlinger/FragmentDrawer/blob/master/app/src/main/res/layout/content.xml) (included by [activity.xml](/ByteSlinger/FragmentDrawer/blob/master/app/src/main/res/layout/activity.xml)) has a Frame with id="content"
+* loadFragment() function in [Activity.java](https://github.com/ByteSlinger/FragmentDrawer/blob/master/app/src/main/java/net/byteslinger/fragmentdrawer/Activity.java)
+* [content.xml](https://github.com/ByteSlinger/FragmentDrawer/blob/master/app/src/main/res/layout/content.xml) (included by [activity.xml](https://github.com/ByteSlinger/FragmentDrawer/blob/master/app/src/main/res/layout/activity.xml)) has a Frame with id="content"
 * DrawerLayout calls onNavigationItemSelected() function in Activity.java when menu item is tapped
 * onNavigationItemSelected() calls loadFragment() function and loads selected Fragment into the "content" Frame
 * AppBarLayout item and FloatingActionButton use same loadFragment() function to load their own fragments
